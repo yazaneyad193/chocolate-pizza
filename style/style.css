@@ -1,6 +1,7 @@
 html
 {
     width:960px;
+    background-color: coral;
 }
 header{
     position: relative;
@@ -71,4 +72,74 @@ header{
 #firstPara, #secondPara, #thirdPara{
     margin-top: 0.75em;
     text-indent:2em;
+}
+
+/* Yazan Code */
+.myListSection{
+
+    margin-top:13px;
+}
+
+.containerOfPic{
+  margin-top: -16.4em;
+  margin-left: 3em;
+    
+}
+
+.containerOfPic p{
+    margin: 5px;
+}
+
+#check{
+    text-decoration: line-through;
+}
+
+.containerOfPicRight{
+    margin-top: -8.9em;
+    margin-left: 20em;
+   
+}
+
+.containerOfPicRight p{
+    margin: 5px;
+}
+
+.lineFooter{
+    margin-top: 10em;
+    border: 1px solid gray;
+    opacity: 0.5;
+    width:87%;
+}
+
+
+.venessaPic{
+    display:inline-block;
+}
+.sectionVV{
+    display: inline-block;
+    margin-top: 1.0em;
+}
+.venessaName{
+    display:inline-block;
+    position:absolute;
+    margin-top: -2.8em;
+    margin-left: 0.2em;
+}
+.venessaQuot{
+    display:inline-block;
+    position:absolute;
+    margin-top: -1.65em;
+    margin-left: 0.2em;
+    font-size: 0.75em;
+}
+
+
+.btn-share{
+float: right;
+background-color: red;
+color: white;
+padding: 0.3em;
+margin-left: 40em;
+margin-top: 1em;
+
 }
